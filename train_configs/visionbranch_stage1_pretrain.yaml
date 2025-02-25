@@ -11,9 +11,9 @@ model:
   # If you want train models based on LLaMA-2-chat,
   # some ckpts could be download from our provided huggingface repo
   # i.e.  https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-13B-Pretrained
-  llama_model: "ckpt/vicuna-13b/" or "ckpt/vicuna-7b/" or "ckpt/llama-2-7b-chat-hf"  or "ckpt/llama-2-13b-chat-hf"
-  imagebind_ckpt_path: "ckpt/imagebind_path/"
-  llama_proj_model: 'ckpt/pretrained_minigpt4.pth' or  '/mnt/workspace/ckpt/pretrained_minigpt4_7b.pth'
+  llama_model: "winglian/Llama-2-3b-hf"
+  imagebind_ckpt_path: "/kaggle/working/Video-LLaMA/ckpt/imagebind_huge.pth"
+  llama_proj_model: '/kaggle/working/Video-LLaMA/ckpt/pretrained_minigpt4.pth'
   
   # only train vision branch
   equip_audio_branch: False  # whether equips the audio branch
