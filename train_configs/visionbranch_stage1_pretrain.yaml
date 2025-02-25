@@ -11,7 +11,7 @@ model:
   # If you want train models based on LLaMA-2-chat,
   # some ckpts could be download from our provided huggingface repo
   # i.e.  https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-13B-Pretrained
-  llama_model: "winglian/Llama-2-3b-hf"
+  llama_model: "NikolayKozloff/Vicuna-3B"
   imagebind_ckpt_path: "/kaggle/working/Video-LLaMA/ckpt/imagebind_huge.pth"
   llama_proj_model: '/kaggle/working/Video-LLaMA/ckpt/pretrained_minigpt4.pth'
   
